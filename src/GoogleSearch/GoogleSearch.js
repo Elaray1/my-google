@@ -112,7 +112,7 @@ const GoogleSearch = (props) => {
             </a>
           </center>
         </div>
-        <div className="language-block">{vocabulary[language].languages}<a onClick={changeLanguage} href="/#">{language === 'ru' ? 'Беларуская' : 'русский'}</a> </div>
+        <div className="language-block">{vocabulary[language].languages}<a onClick={changeLanguage} href="#">{language === 'ru' ? 'Беларуская' : 'русский'}</a> </div>
       </main>
       <footer>
         <div className="footer-wrapper">
